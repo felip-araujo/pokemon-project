@@ -18,7 +18,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
         server: ftp.evoludesign.com.br
-        username: felp@projetos.evoludesign.com.br
+        username: felp@evoludesign.com.br
         password: vh^kkc7E4VNt
         server-dir: /public_html/pokedex2/ 
         port: 21 
