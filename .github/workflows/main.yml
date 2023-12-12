@@ -17,4 +17,4 @@ jobs:
         server: ${{ secrets.ftp_host }}
         username: ${{ secrets.ftp_user }}
         password: ${{ secrets.ftp_password }}
-        server-dir: /home1/evolud85/projetos.evoludesign.com.br/pokedex/
+        server-dir: /public_html/pokedex2/
