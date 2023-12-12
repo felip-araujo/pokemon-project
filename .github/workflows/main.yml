@@ -1,3 +1,6 @@
+
+              - name: FTP Deploy
+                uses: SamKirkland/FTP-Deploy-Action@v4.3.4
 on: 
   push: 
     branches: 
@@ -14,7 +17,8 @@ jobs:
     - name: 📂 Sync files
       uses: SamKirkland/FTP-Deploy-Action@v4.3.4
       with:
-        server: ${{ secrets.ftp_host }}
-        username: ${{ secrets.ftp_user }}
-        password: ${{ secrets.ftp_password }}
-        server-dir: ./public_html/pokedex2/
+        server: ftp.evoludesign.com.br
+        username: felp@projetos.evoludesign.com.br
+        password: vh^kkc7E4VNt
+        server-dir: /public_html/pokedex2/ 
+        port: 21 
